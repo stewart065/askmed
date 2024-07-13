@@ -1,4 +1,7 @@
+// import 'dart:js';
+
 import 'package:flutter/widgets.dart';
+// import 'package:shop_app/screens/products/capsule_screen.dart';
 import 'package:shop_app/screens/products/products_screen.dart';
 
 import 'screens/cart/cart_screen.dart';
@@ -27,9 +30,11 @@ final Map<String, WidgetBuilder> routes = {
   // CompleteProfileScreen.routeName: (context) => const CompleteProfileScreen(),
   // OtpScreen.routeName: (context) => const OtpScreen(),
   HomeScreen.routeName: (context) => const HomeScreen(),
-  // Camera.routeName: (context) => const Camera(),
+  Camera.routeName: (context) => const Camera(),
   ProductsScreen.routeName: (context) => const ProductsScreen(),
+  // capsule_screen.routeName: (context) => const capsule_screen(),
   DetailsScreen.routeName: (context) => const DetailsScreen(),
   // CartScreen.routeName: (context) => const CartScreen(),
   ProfileScreen.routeName: (context) => const ProfileScreen(),
+  // capsule_screen.routeName (context) => const capsule_screen()
 };

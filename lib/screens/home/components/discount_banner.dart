@@ -15,7 +15,7 @@ class DiscountBanner extends StatelessWidget {
         vertical: 16,
       ),
       decoration: BoxDecoration(
-        color: const Color(0xFF4A3298),
+        color: Color.fromARGB(255, 88, 176, 68),
         borderRadius: BorderRadius.circular(20),
       ),
       child: const Text.rich(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:shop_app/screens/products/capsule_screen.dart';
 import 'package:shop_app/screens/products/products_screen.dart';
 
 import 'section_title.dart';
@@ -26,7 +27,7 @@ class SpecialOffers extends StatelessWidget {
               SpecialOfferCard(
                 image: "assets/images/aws.jpg",
                 category: "Capsule",
-                numOfBrands: 18,
+                // numOfBrands: 18,
                 press: () {
                   Navigator.pushNamed(context, ProductsScreen.routeName);
                 },
@@ -34,7 +35,7 @@ class SpecialOffers extends StatelessWidget {
               SpecialOfferCard(
                 image: "assets/images/awwwww.jpg",
                 category: "Tablet",
-                numOfBrands: 24,
+                // numOfBrands: 24,
                 press: () {
                   Navigator.pushNamed(context, ProductsScreen.routeName);
                 },
@@ -42,7 +43,7 @@ class SpecialOffers extends StatelessWidget {
               SpecialOfferCard(
                 image: "assets/images/cough-syrup.jpg",
                 category: "Syrup",
-                numOfBrands: 24,
+                // numOfBrands: 24,
                 press: () {
                   Navigator.pushNamed(context, ProductsScreen.routeName);
                 },
@@ -61,12 +62,12 @@ class SpecialOfferCard extends StatelessWidget {
     Key? key,
     required this.category,
     required this.image,
-    required this.numOfBrands,
+    // required this.numOfBrands,
     required this.press,
   }) : super(key: key);
 
   final String category, image;
-  final int numOfBrands;
+  // final int numOfBrands;
   final GestureTapCallback press;
 
   @override
@@ -116,7 +117,7 @@ class SpecialOfferCard extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        TextSpan(text: "$numOfBrands Brands")
+                        // TextSpan(text: "$numOfBrands Brands")
                       ],
                     ),
                   ),

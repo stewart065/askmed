@@ -22,7 +22,7 @@ class ProductDescription extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: Text(
-            "Brandname: ${product.title}\nType: ${product.medicinetyp}\n Price: ₱${product.price}",
+            "Brandname: ${product.title}\nType: ${product.medicinetyp}",
             style: Theme.of(context).textTheme.titleLarge,
           ),
         ),
@@ -61,26 +61,6 @@ class ProductDescription extends StatelessWidget {
             ),
           ),
         ),
-        Row(
-          children: [
-            Padding(
-              padding: EdgeInsets.only(
-                left: 20,
-                right: 1,
-                // top: 50,
-              ), // Adjust the padding value as needed
-              child: Text(
-                'Stock: ',
-                style: TextStyle(),
-              ),
-            ),
-            Text(
-              product.stck.toString(),
-              maxLines: 15,
-            ),
-          ],
-        ),
-
         Padding(
           padding: const EdgeInsets.only(
             left: 20,
